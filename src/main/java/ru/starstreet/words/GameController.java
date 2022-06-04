@@ -3,6 +3,8 @@ package ru.starstreet.words;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.input.KeyEvent;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
 import ru.starstreet.words.additionalClasses.WordCondition;
 
 import java.io.IOException;
@@ -42,6 +44,7 @@ public class GameController {
         playerPoints = computerPoints = 0;
         game = new WordsGame(PATH + "vocabulary.txt");
         mainWord.setText(game.getMainWord());
+        mainWord.setFont(Font.font("Courier New", FontWeight.BOLD, 20));
         playerPointsLabel.setText("Игрок: 0");
         computerPointsLabel.setText("Компутер: 0");
         computerOutput.clear();
