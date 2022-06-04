@@ -1,7 +1,9 @@
 Here is a game of "Words"!
 Your task is to score more points than the computer
-by composing words from the main word. For each word
-you get points based on the number of letters in it.
-If you can't think of a word, enter an empty string
+by composing words from the main word.
+You can only use nouns!!!
+For each word you get points based on the number of
+letters in it. If you can't think of a word,
+enter an empty string
 
 Expand your knowledge by playing and adding new words!
