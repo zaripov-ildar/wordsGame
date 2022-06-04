@@ -1,0 +1,3 @@
+A game of "Words" 2022.06.04
+Developer: Ildar Zaripov
+Copyright © 2022 StarStreet company

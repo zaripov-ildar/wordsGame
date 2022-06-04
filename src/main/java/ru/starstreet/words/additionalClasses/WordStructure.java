@@ -1,4 +1,4 @@
-package ru.starstreet.words;
+package ru.starstreet.words.additionalClasses;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,21 +11,22 @@ public class WordStructure {
         for (int i = 0; i < word.length(); i++) {
             char ch = word.charAt(i);
             if (structure.containsKey(ch))
-                structure.put(ch, structure.get(ch)+1);
+                structure.put(ch, structure.get(ch) + 1);
             else
                 structure.put(ch, 1);
         }
     }
 
-    private Map<Character, Integer> getStructure(){
+    private Map<Character, Integer> getStructure() {
         return structure;
     }
-    public boolean contains(String word){
+
+    public boolean contains(String word) {
         WordStructure struct = new WordStructure(word);
-        for (Map.Entry<Character, Integer> entry: struct.getStructure().entrySet()){
+        for (Map.Entry<Character, Integer> entry : struct.getStructure().entrySet()) {
             char ch = entry.getKey();
             if (!(this.structure.containsKey(ch) &&
-            this.structure.get(ch) >= entry.getValue()))
+                    this.structure.get(ch) >= entry.getValue()))
                 return false;
         }
         return true;

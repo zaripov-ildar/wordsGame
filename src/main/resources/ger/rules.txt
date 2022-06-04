@@ -1,0 +1,7 @@
+Hier ist das Spiel "Worte"!
+Ihre Aufgabe ist es, mehr Punkte als der Computer zu erzielen,
+wörter aus dem Hauptwort zusammensetzen. Für jedes Wort
+sie erhalten Punkte durch die Anzahl der Buchstaben darin.
+Wenn Sie nicht mit einem Wort kommen können, geben Sie eine leere Zeichenfolge ein
+
+Erweitern Sie Ihr Wissen durch das Spielen und das Hinzufügen aller neuen Wörter!

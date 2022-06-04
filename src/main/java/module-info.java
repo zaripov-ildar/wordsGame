@@ -5,4 +5,6 @@ module ru.starstreet.words {
 
     opens ru.starstreet.words to javafx.fxml;
     exports ru.starstreet.words;
+    exports ru.starstreet.words.additionalClasses;
+    opens ru.starstreet.words.additionalClasses to javafx.fxml;
 }
